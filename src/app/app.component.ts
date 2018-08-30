@@ -26,7 +26,7 @@ export class AppComponent implements OnInit {
         console.log(path)
         if(!this.electronService.fs.existsSync(path)) path = ""
         if(!path){
-          this.electronService.remote.app.getAppPath().split("/")
+          path = this.electronService.remote.app.getAppPath().split("/")
           if(path.length == 1) path = path[0].split("\\")
           let index = path.indexOf(".minecraft")
           if(index != -1){
