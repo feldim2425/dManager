@@ -22,9 +22,15 @@
     ]
   },
   "appImage": {
-    "systemIntegration": "doNotAsk",
-    "mimeTypes": ["dmanager"]
+    "systemIntegration": "doNotAsk"
   },
+  "fileAssociations": [
+      {
+        "ext": "dmanager",
+        "name": "dManager",
+        "mimeType": "x-scheme-handler/dmanager",
+      }
+    ],
   "protocols":[{
     "name":"dmanager",
     "role":"Viewer",
