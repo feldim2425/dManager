@@ -22,11 +22,12 @@
     ]
   },
   "appImage": {
-  "systemIntegration": "doNotAsk"
-},
-"protocols":[{
-  "name":"dmanager",
-  "role":"Viewer",
-  "schemes":["dmanager"]
+    "systemIntegration": "doNotAsk",
+    "mimeTypes": ["dmanager"]
+  },
+  "protocols":[{
+    "name":"dmanager",
+    "role":"Viewer",
+    "schemes": ["dmanager"]
   }]
 }
