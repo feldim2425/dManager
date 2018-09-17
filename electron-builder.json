@@ -16,7 +16,7 @@
     ]
   },
   "linux": {
-    "icon": "dist",
+    "icon": "dist/favicon.png",
     "target": [
       "AppImage"
     ]
@@ -28,7 +28,7 @@
       {
         "ext": "dmanager",
         "name": "dManager",
-        "mimeType": "x-scheme-handler/dmanager",
+        "mimeType": "x-scheme-handler/dmanager"
       }
     ],
   "protocols":[{
