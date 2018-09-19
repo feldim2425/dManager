@@ -36,15 +36,14 @@
     "pree2e:protractor": "wait-on http-get://localhost:4200/ && protractor ./protractor.conf.js",
     "e2e": "npm-run-all -p -r pree2e:build pree2e:protractor"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "@nebular/theme": "^2.0.0-rc.9",
     "@ng-bootstrap/ng-bootstrap": "^2.0.0",
     "blob-to-buffer": "^1.2.8",
     "bootstrap": "^4.1.1",
     "nebular-icons": "^1.0.6",
-    "popper.js": "^1.14.3"
+    "popper.js": "^1.14.3",
     "@angular/animations": "6.1.7",
     "@angular/cli": "1.7.4",
     "@angular/common": "6.1.7",
