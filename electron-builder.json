@@ -6,7 +6,11 @@
   "win": {
     "icon": "dist/favicon.ico",
     "target": [
-      "portable"
+      {"target": "portable",
+        "arch": [
+          "ia32"
+        ]
+      }
     ]
   },
   "mac": {
